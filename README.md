@@ -18,7 +18,78 @@ Welcome to the CPP Projects repository! This repository contains a collection of
 
 5. **Project 5: Basic Data Structures**  
    Implementation of basic data structures such as Linked Lists, Stacks, and Queues.
+# 🏨 Hotel Management System (C++)
 
+A simple console-based Hotel Management System built in C++ that allows room booking, guest management, and basic authentication using file handling.
+
+---
+
+## 📌 Features
+
+### 👤 Authentication System
+- User Sign Up and Login
+- Role-based access:
+  - Admin
+  - Guest
+
+---
+
+### 🛏️ Room Management
+- Predefined rooms:
+  - Single (Rooms 1–3)
+  - Double (Rooms 4–7)
+  - Deluxe (Rooms 8–10)
+- View available rooms
+- Automatic booking status update
+
+---
+
+### 📋 Booking System
+- Book a room with:
+  - Name
+  - ID card number
+  - Stay duration
+  - Check-in date
+- Prevents booking already occupied rooms
+
+---
+
+### 🧾 Checkout System
+- Calculate total bill based on:
+  - Room type
+  - Number of days
+- Collect:
+  - Feedback
+  - Upgrade request (optional)
+
+---
+
+### 🔍 Search Functionality (Admin Only)
+- Search guest by ID card
+- View booking details + feedback
+
+---
+
+### 📁 File Handling
+- `users.txt` → stores login credentials
+- `guests.txt` → stores booking records
+- Data persists between runs
+
+---
+
+## 🛠️ Technologies Used
+- C++
+- STL (`vector`, `string`)
+- File Handling (`fstream`)
+- Object-Oriented Programming (OOP)
+
+---
+
+## 🚀 How to Run
+
+### 1. Compile the code
+```bash
+g++ main.cpp -o hotel
 ## How to Use
 
 1. Clone the repository using the command:  
